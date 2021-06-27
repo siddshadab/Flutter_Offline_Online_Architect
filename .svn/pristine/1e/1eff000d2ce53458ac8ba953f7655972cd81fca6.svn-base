@@ -1,0 +1,4 @@
+sdk.dir=C:\\Users\\shadab.siddiqui\\AppData\\Local\\Android\\sdk
+flutter.sdk=C:\\src\\flutter_windows_1.17.3-stable\\flutter
+flutter.buildMode=debug
+flutter.versionName=0.0.110

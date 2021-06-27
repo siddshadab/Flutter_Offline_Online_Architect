@@ -1,0 +1,266 @@
+import 'package:eco_los/db/TablesColumnFile.dart';
+import 'package:eco_los/helpers/app_constant.dart';
+import 'package:eco_los/screens/collateral/collateralREM/bean/CollateralREMlandandhouseBean.dart';
+import 'package:eco_los/screens/collateral/collateralT24/bean/CollateralT24Bean.dart';
+import 'package:eco_los/screens/collateral/collatralVehicle/bean/CollateralVehicleBean.dart';
+import 'dart:convert';
+
+class CollateralBasicSelectionBean {
+
+  static const JsonCodec JSON = const JsonCodec();
+  String UUID;
+  String LOANUUID;
+  String CUSTUUID;
+  String mleadsid;
+  String mcollstatus;
+  String mcollateralsid;
+  int	msrno ;
+  String mfname;
+  String mmname;
+  String mlname;
+  String	mapplicanttype ;
+  String collatrlTyp;
+  int	mcustno ;
+  String	mrelationwithcust ;
+  int	mrelationsince ;
+
+  String msubcolltrl;
+  String msubocolltrldesc;
+  String msubcolltrlcat;
+  String msubocolltrlcatdesc;
+  String collatrlcat;
+  String nametitle;
+  String insurance;
+  String colltrltitle;
+ // String colltrltitledesc;
+  String mnameoftitledoc;
+  String mcollbookno;
+  String mcollpageno;
+  String mplaceofuse;
+  String mwithdrawcond;
+  String mwthdrwcond;
+  String misappctprimary;
+  String mislmap;
+  String mnoofattchmnt;
+  DateTime mcreateddt;
+  String mcreatedby;
+  DateTime mlastupdatedt;
+  String mlastupdateby;
+  String mgeolocation;
+  String mgeolatd;
+  String mgeologd;
+  DateTime mlastsynsdate;
+  String merrormessage;
+  int missynctocoresys;
+  bool isFethMode;
+    String mflag;
+    String mcollrightid;
+    String mollcreateid;
+    String msubprodlimitid;
+  CollateralBasicSelectionBean collateralBasicSelectionBean;
+  CollateralREMlandandhouseBean collateralREMlandandhouseBean;
+  CollateralVehicleBean collateralVehicleBean;
+  CollateralT24Bean collateralT24Bean;
+
+  CollateralBasicSelectionBean(
+      {
+        this.UUID,
+        this.LOANUUID,
+        this.CUSTUUID,
+        this.mleadsid,
+        this.mcollstatus,
+        this.msrno,
+        this.mapplicanttype,
+
+        this.mcustno,
+
+        this.misappctprimary,
+        this.mislmap,
+        this.mnoofattchmnt,
+        this.mrelationwithcust,
+        this.mrelationsince,
+        this.mcreateddt,
+        this.mcreatedby,
+        this.mlastupdatedt,
+        this.mlastupdateby,
+        this.mgeolocation,
+        this.mgeolatd,
+        this.mgeologd,
+        this.mlastsynsdate,
+        this.merrormessage,
+        this.mfname,
+        this.mmname,
+        this.mlname,
+        this.collatrlTyp,
+        this.msubcolltrl,
+        this.msubocolltrldesc,
+        this.msubcolltrlcat,
+        this.msubocolltrlcatdesc,
+        this.collatrlcat,
+        //this.relationwithapplicant,
+        this.nametitle,
+        this.insurance,
+        this.colltrltitle,
+        this.mnameoftitledoc,
+        this.mcollbookno,
+        this.mcollpageno,
+        this.mplaceofuse,
+        this.mwithdrawcond,
+        this.mwthdrwcond,
+        this.mcollateralsid,
+        this.missynctocoresys,
+        this.isFethMode,
+        this.mflag,
+        this.mcollrightid,
+        this.mollcreateid,
+        this.msubprodlimitid,
+        this.collateralVehicleBean,
+        this.collateralREMlandandhouseBean,
+        this.collateralT24Bean,
+        this.collateralBasicSelectionBean
+      });
+
+
+
+  static Future<Map> toCollaateralsJson(CollateralBasicSelectionBean bean) async {
+    var mapData = new Map();
+ 
+    mapData[TablesColumnFile.mleadsid] = 	  Constant.ifNullCheck(bean.mleadsid);
+    mapData[TablesColumnFile.mcollstatus] = 	  Constant.ifNullCheck(bean.mcollstatus);
+    mapData[TablesColumnFile.mcollateralsid] = 	  Constant.ifNullCheck(bean.mcollateralsid);
+    mapData[TablesColumnFile.msrno] = 	  bean.msrno==null?0:bean.msrno;
+    mapData[TablesColumnFile.mfname] = 	  Constant.ifNullCheck(bean.mfname);
+    mapData[TablesColumnFile.mmname] = 	  Constant.ifNullCheck(bean.mmname);
+    mapData[TablesColumnFile.mlname] = 	 Constant.ifNullCheck(bean.mlname);
+    mapData[TablesColumnFile.mapplicanttype] = 	  bean.mapplicanttype==null?0:bean.mapplicanttype;
+    mapData[TablesColumnFile.mcollatrlTyp] = 	  Constant.ifNullCheck(bean.collatrlTyp);
+
+    mapData[TablesColumnFile.mcustno] = 	  bean.mcustno==null?0:bean.mcustno;
+    mapData[TablesColumnFile.mrelationwithcust] = 	  Constant.ifNullCheck(bean.mrelationwithcust);
+    mapData[TablesColumnFile.mrelationsince] = 	  bean.mrelationsince==null?0:bean.mrelationsince;
+    mapData[TablesColumnFile.msubcolltrl] = 	  Constant.ifNullCheck(bean.msubcolltrl);
+    mapData[TablesColumnFile.msubocolltrldesc] = 	  Constant.ifNullCheck(bean.msubocolltrldesc);
+    mapData[TablesColumnFile.msubcolltrlcat] = 	  Constant.ifNullCheck(bean.msubcolltrlcat);
+    mapData[TablesColumnFile.msubocolltrlcatdesc] = 	  Constant.ifNullCheck(bean.msubocolltrlcatdesc);
+    mapData[TablesColumnFile.mcollatrlcat] = 	  Constant.ifNullCheck(bean.collatrlcat);
+    mapData[TablesColumnFile.mnametitle] = 	  Constant.ifNullCheck(bean.nametitle);
+    mapData[TablesColumnFile.minsurance] = 	  Constant.ifNullCheck(bean.insurance);
+    mapData[TablesColumnFile.mcolltrltitle] = 	  Constant.ifNullCheck(bean.colltrltitle);
+    mapData[TablesColumnFile.mnameoftitledoc] = 	  Constant.ifNullCheck(bean.mnameoftitledoc);
+    mapData[TablesColumnFile.mcollbookno] = 	  Constant.ifNullCheck(bean.mcollbookno);
+    mapData[TablesColumnFile.mcollpageno] = 	  Constant.ifNullCheck(bean.mcollpageno);
+    mapData[TablesColumnFile.mplaceofuse] = 	  Constant.ifNullCheck(bean.mplaceofuse);
+    mapData[TablesColumnFile.mwithdrawcond] = 	  Constant.ifNullCheck(bean.mwithdrawcond);
+    mapData[TablesColumnFile.mwthdrwcond] = 	  Constant.ifNullCheck(bean.mwthdrwcond);
+
+    mapData[TablesColumnFile.mflag] = 	  Constant.ifNullCheck(bean.mflag);
+    mapData[TablesColumnFile.mcollrightid] = 	  Constant.ifNullCheck(bean.mcollrightid);
+    mapData[TablesColumnFile.mollcreateid] = 	  Constant.ifNullCheck(bean.mollcreateid);
+    mapData[TablesColumnFile.msubprodlimitid] = 	  Constant.ifNullCheck(bean.msubprodlimitid);
+
+
+    mapData[TablesColumnFile.mcreateddt] =	Constant.ifDateNullCheck(bean.mcreateddt);
+    mapData[TablesColumnFile.mcreatedby] =	Constant.ifNullCheck(bean.mcreatedby);
+    mapData[TablesColumnFile.mlastupdatedt] =	Constant.ifDateNullCheck(bean.mlastupdatedt);
+    mapData[TablesColumnFile.mlastupdateby] =	Constant.ifNullCheck(bean.mlastupdateby);
+    mapData[TablesColumnFile.mgeolocation] =	Constant.ifNullCheck(bean.mgeolocation);
+    mapData[TablesColumnFile.mgeolatd] =	Constant.ifNullCheck(bean.mgeolatd);
+    mapData[TablesColumnFile.mgeologd] =	Constant.ifNullCheck(bean.mgeologd);
+    mapData[TablesColumnFile.missynctocoresys] = 	  bean.missynctocoresys==null?0:bean.missynctocoresys;
+    mapData[TablesColumnFile.mlastsynsdate] =	Constant.ifDateNullCheck(bean.mlastsynsdate);
+    mapData[TablesColumnFile.misappctprimary] =	Constant.ifNullCheck(bean.misappctprimary);
+    mapData[TablesColumnFile.mislmap] =	Constant.ifNullCheck(bean.mislmap);
+    mapData[TablesColumnFile.mnoofattchmnt] =	Constant.ifNullCheck(bean.mnoofattchmnt);
+
+    var rem = new Map();
+    if (bean.collateralREMlandandhouseBean != null) {
+      rem[TablesColumnFile.mtitle] = bean.collateralREMlandandhouseBean.mtitle != null ? bean.collateralREMlandandhouseBean.mtitle : '';
+    }
+
+    var veh = new Map();
+    if (bean.collateralVehicleBean != null) {
+      veh[TablesColumnFile.mownername] = bean.collateralVehicleBean.mownername != null ? bean.collateralVehicleBean.mownername : '';
+    }
+
+    mapData[TablesColumnFile.collateralRemEntity] = rem;
+    mapData[TablesColumnFile.collateralVehicleEntity] = veh;
+
+    return mapData;
+  }
+
+
+  factory CollateralBasicSelectionBean.fromColateralsJson(Map<String, dynamic> map,bool isFromMiddleware) {
+    return CollateralBasicSelectionBean(
+
+
+    );
+  }
+
+
+  //ADDED NEW METHODS FOR GET CollateralBasicSelectionBean
+  factory CollateralBasicSelectionBean.fromMapV2(Map<String, dynamic> map) {
+    final Map<String, dynamic> data  =  JSON.decode(map[TablesColumnFile.GUARDATA]);
+    Constant.getAppPath(data.toString(),"AfterColleralSave");
+    print(data);
+    return CollateralBasicSelectionBean(
+      UUID: map[TablesColumnFile.UUID] as String,
+      LOANUUID: map[TablesColumnFile.LOANUUID] as String,
+      CUSTUUID: map[TablesColumnFile.CUSTUUID] as String,
+      //collateralBasicSelectionBean:data==null?null:CollateralBasicSelectionBean.fromColateralsJson(data,false),
+      mcreateddt: (map[TablesColumnFile.mcreateddt]=="null"||map[TablesColumnFile.mcreateddt]==null)?null:DateTime.parse(map[TablesColumnFile.mcreateddt]) as DateTime,
+      mcreatedby:map[TablesColumnFile.mcreatedby],
+      mlastupdatedt:(map[TablesColumnFile.mlastupdatedt]=="null"||map[TablesColumnFile.mlastupdatedt]==null)?null:DateTime.parse(map[TablesColumnFile.mlastupdatedt]) as DateTime,
+      mlastupdateby:map[TablesColumnFile.mlastupdateby],
+      mgeolocation:map[TablesColumnFile.mgeolocation],
+      mgeolatd:map[TablesColumnFile.mgeolatd],
+      mgeologd:map[TablesColumnFile.mgeologd],
+
+
+      mleadsid:	data[TablesColumnFile.mleadsid] as String,
+      mcollstatus:	data[TablesColumnFile.mcollstatus] as String,
+      msrno:	data[TablesColumnFile.msrno] as int,
+      mapplicanttype:	data[TablesColumnFile.mapplicanttype] as String,
+      collatrlTyp:data[TablesColumnFile.mcollatrlTyp] as String,
+
+      mcustno:	data[TablesColumnFile.mcustno] as int,
+      mrelationwithcust:	data[TablesColumnFile.mrelationwithcust] as String,
+      mrelationsince:	data[TablesColumnFile.mrelationsince] as int,
+      mlastsynsdate:(data[TablesColumnFile.mlastsynsdate]=="null"||data[TablesColumnFile.mlastsynsdate]==null)?null:DateTime.parse(data[TablesColumnFile.mlastsynsdate]) as DateTime,
+      merrormessage:data[TablesColumnFile.merrormessage] as String,
+      mfname: data[TablesColumnFile.mfname] as String,
+      mmname: data[TablesColumnFile.mmname] as String,
+      mlname: data[TablesColumnFile.mlname] as String,
+      msubcolltrl: data[TablesColumnFile.msubcolltrl] as String,
+      msubocolltrldesc: data[TablesColumnFile.msubocolltrldesc] as String,
+      msubcolltrlcat: data[TablesColumnFile.msubcolltrlcat] as String,
+      msubocolltrlcatdesc: data[TablesColumnFile.msubocolltrlcatdesc] as String,
+      collatrlcat: data[TablesColumnFile.mcollatrlcat] as String,
+      //relationwithapplicant: data[TablesColumnFile.mrelationwithapplicant] as String,
+      nametitle: data[TablesColumnFile.mnametitle] as String,
+      insurance: data[TablesColumnFile.minsurance] as String,
+      colltrltitle: data[TablesColumnFile.mcolltrltitle] as String,
+      mnameoftitledoc: data[TablesColumnFile.mnameoftitledoc] as String,
+      mcollbookno: data[TablesColumnFile.mcollbookno] as String,
+      mcollpageno: data[TablesColumnFile.mcollpageno] as String,
+      mplaceofuse: data[TablesColumnFile.mplaceofuse] as String,
+      mwithdrawcond: data[TablesColumnFile.mwithdrawcond] as String,
+      mwthdrwcond: data[TablesColumnFile.mwthdrwcond] as String,
+
+      mcollateralsid: data[TablesColumnFile.mcollateralsid] as String,
+      missynctocoresys: data[TablesColumnFile.missynctocoresys] as int,
+      misappctprimary: data[TablesColumnFile.misappctprimary] as String,
+      mislmap: data[TablesColumnFile.mislmap] as String,
+      mnoofattchmnt: data[TablesColumnFile.mnoofattchmnt] as String,
+      mflag: data[TablesColumnFile.mflag] as String,
+      mcollrightid: data[TablesColumnFile.mcollrightid] as String,
+      mollcreateid: data[TablesColumnFile.mollcreateid] as String,
+      msubprodlimitid: data[TablesColumnFile.msubprodlimitid] as String,
+      collateralVehicleBean: data[TablesColumnFile.collateralVehicleEntity]==null?null:CollateralVehicleBean.fromMapMiddleware(data[TablesColumnFile.collateralVehicleEntity]),
+      collateralREMlandandhouseBean: data[TablesColumnFile.collateralRemEntity]==null?null:CollateralREMlandandhouseBean.fromMapMiddleware(data[TablesColumnFile.collateralRemEntity]),
+      collateralT24Bean: data[TablesColumnFile.collateralT24Entity]==null?null:CollateralT24Bean.fromMapMiddleware(data[TablesColumnFile.collateralT24Entity]),
+
+    );
+  }
+
+}
+

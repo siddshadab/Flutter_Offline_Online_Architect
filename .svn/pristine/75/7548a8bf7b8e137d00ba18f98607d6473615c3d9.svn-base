@@ -1,0 +1,20 @@
+# This is a generated file; do not edit or check into version control.
+connectivity=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity-0.4.1/
+device_info=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/device_info-0.4.2+10/
+flutter_keyboard_visibility=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_keyboard_visibility-3.3.0/
+geolocator=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-5.3.2+2/
+get_version=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/get_version-0.0.8+5/
+google_api_availability=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/google_api_availability-2.0.4/
+image_cropper=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/image_cropper-1.0.2/
+image_picker=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.0+15/
+location_permissions=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/location_permissions-3.0.0+1/
+package_info=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/package_info-0.4.3+4/
+path_provider=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.0/
+permission=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/permission-0.1.2/
+shared_preferences=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.4.3/
+sqflite=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-1.3.1+2/
+url_launcher=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.6/
+url_launcher_linux=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4/
+url_launcher_macos=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9/
+url_launcher_web=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.4+1/
+url_launcher_windows=/home/ifnra/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3/

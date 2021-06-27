@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a27a12d1-8fcc-487f-a110-d73c0e802106" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectId" id="1tvX1kAPNjg192XUAeIH3gwUEbM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a27a12d1-8fcc-487f-a110-d73c0e802106" name="Default Changelist" comment="" />
+      <created>1623650328668</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623650328668</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="524" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1623676656932">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="524" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1623676656932" />
+    <state width="1253" height="186" key="GridCell.Tab.0.bottom" timestamp="1623766448580">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="186" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1623766448580" />
+    <state width="1253" height="186" key="GridCell.Tab.0.center" timestamp="1623766448578">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="186" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1623766448578" />
+    <state width="1253" height="186" key="GridCell.Tab.0.left" timestamp="1623766448577">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="186" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1623766448577" />
+    <state width="1253" height="186" key="GridCell.Tab.0.right" timestamp="1623766448579">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="186" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1623766448579" />
+    <state x="205" y="31" key="SettingsEditor" timestamp="1623735689475">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1623735689475" />
+    <state x="406" y="135" width="620" height="522" key="find.popup" timestamp="1623764298488">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="406" y="135" width="620" height="522" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1623764298488" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1623767558496">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1623767558496" />
+  </component>
+</project>

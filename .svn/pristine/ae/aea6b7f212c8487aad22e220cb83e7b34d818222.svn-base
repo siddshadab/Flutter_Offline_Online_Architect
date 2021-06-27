@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f594c6a0-9980-4a65-a161-2da34a0730ed" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/.idea/" />
+    <ignored path="$PROJECT_DIR$/.pub/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1236887074">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="dart" value="253" />
+          <entry key="gradle" value="3" />
+          <entry key="java" value="1" />
+          <entry key="json" value="1" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="3" />
+          <entry key="yaml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Dart" value="253" />
+          <entry key="Groovy" value="3" />
+          <entry key="JAVA" value="1" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="3" />
+          <entry key="YAML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dart" value="5247" />
+          <entry key="gradle" value="2" />
+          <entry key="xml" value="2" />
+          <entry key="yaml" value="321" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Dart" value="5247" />
+          <entry key="Groovy" value="2" />
+          <entry key="XML" value="2" />
+          <entry key="YAML" value="321" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/screens/collateral/collatralVehicle/CollateralVehicleMaster.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="415" selection-start-line="415" selection-end-line="415" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/screens/collateral/collatralVehicle/bean/CollateralVehicleBean.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="363" column="60" lean-forward="true" selection-start-line="363" selection-start-column="60" selection-end-line="363" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/screens/collateral/collateralREM/CollateralsREMMaster.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="405" selection-start-line="405" selection-end-line="405" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/screens/collateral/collateralT24/collateralT24Screens/CollateralT24Master.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="462" selection-start-line="462" selection-end-line="462" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/screens/collateral/collateralsGold/CollateralsGoldMaster.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="646" selection-start-line="646" selection-end-line="646" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/screens/collateral/collateralsGold/bean/CollateralsGoldMasterBean.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/screens/collateral/collateralREM/bean/CollateralREMlandandhouseBean.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="260" selection-start-line="260" selection-end-line="260" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/screens/collateral/collateralT24/bean/CollateralT24Bean.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="257" selection-start-line="257" selection-end-line="257" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/screens/collateral/CollateralList.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="895" column="62" lean-forward="true" selection-start-line="895" selection-start-column="62" selection-end-line="895" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/screens/collateral/ExistingCollateralList.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="1065" column="62" lean-forward="true" selection-start-line="1059" selection-start-column="6" selection-end-line="1065" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>font_awesome_flutter</find>
+      <find>refrence</find>
+      <find>refrence</find>
+      <find>Dedup</find>
+      <find>Idty</find>
+      <find>JSON</find>
+      <find>map[TablesColumnFile</find>
+      <find>customerAddressDetailsList</find>
+      <find>esms</find>
+      <find>customerRiskRatingsBean</find>
+      <find>for (</find>
+      <find>familyDetailsList</find>
+      <find>socialFinancialList</find>
+      <find>riskratingsentity</find>
+      <find>uuid</find>
+      <find>imageMaster</find>
+      <find>buss</find>
+      <find>trefno</find>
+      <find>her</find>
+      <find>//here</find>
+      <find>mRuralUrban</find>
+      <find>doubl</find>
+      <find>0;</find>
+      <find>init</find>
+      <find>mnoofempincmpny</find>
+      <find>customerListBean</find>
+      <find>ifBoolNullCheck</find>
+      <find>getcus</find>
+      <find>ifNullCheck</find>
+      <find>ifDateNullCheck</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>TablesList.LOANCYCLEPARAMETERPRIMARYMASTER</replace>
+      <replace>TablesList.INTERESETOFFSETMASTER</replace>
+      <replace>TablesList.SYSTEMPARAMETERSMASTER</replace>
+      <replace>bean</replace>
+      <replace>familyDetailsList</replace>
+      <replace>addressDetails</replace>
+      <replace>riskratingsentity</replace>
+      <replace>customerListBean.familyDetailsList</replace>
+      <replace>socialFinancialList</replace>
+      <replace>customerListBean.socialFinancialList</replace>
+      <replace>customerListBean.addressDetails</replace>
+      <replace>customerListBean.riskratingsentity</replace>
+      <replace>customerListBean.esmsentity</replace>
+      <replace>customerListBean.borrowingDetailsBean</replace>
+      <replace>customerListBean.customerBusinessDetailsBean</replace>
+      <replace>customerListBean.assetDetailsList</replace>
+      <replace>customerListBean.fixedAssetsList</replace>
+      <replace>customerListBean.currentAssetsList</replace>
+      <replace>customerListBean.longTermLiabilitiesList</replace>
+      <replace>customerListBean.shortTermLiabilitiesList</replace>
+      <replace>customerListBean.equityList</replace>
+      <replace>customerListBean.incomeStatementList</replace>
+      <replace>customerListBean.financialStmntList</replace>
+      <replace>customerListBean.totalExpenditureDetailsBean</replace>
+      <replace>customerListBean.imageMaster</replace>
+      <replace>0.0;</replace>
+      <replace>customerLoanDetailsBean</replace>
+      <replace>Constant.ifBoolNullCheck</replace>
+      <replace>Constant.ifNullCheck</replace>
+      <replace>Constant.ifDateNullCheck</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/CustomerFormationLoanDetails.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/bean/BorrowingDetailsBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/CustomerFormationContactDetails.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/bean/AddressDetailsBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/bean/ImageBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/CustomerFormationBusinessDetails.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/bean/AssetDetailsBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/bean/FixedAssetsBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/bean/CurrentAssetsBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/bean/LongTermLiabilitiesBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/bean/ShortTermLiabilitiesBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/bean/EquityBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/CustomerFormationBusinessCashFlow3.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/bean/IncomeStatementBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/bean/FinancialStmntBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/bean/TotalExpenditureDetailsBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/bean/RiskRatingsBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/bean/ESMSBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/CustomerFormationCenterAndGroupDetails.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/List/CustomerList.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/bean/CustomerBusinessDetailsBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/CustomerFormationMasterTabs.dart" />
+        <option value="$PROJECT_DIR$/lib/helpers/app_constant.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/customerFormation/bean/CustomerListBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/LoanApplication/bean/CustomerLoanDetailsBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/Guarantor/AddGuarantor.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/Guarantor/GuarantorDetails.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/Guarantor/GuarantorDetailsForSelection.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/documentCollector/DocumentCollectorBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/documentCollector/DocumetCollector.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/LoanApplication/List/CustomerLoanDetailsList.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/LoanApplication/List/AccuntListForLoan.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/LoanApplication/LoanLimitDetails.dart" />
+        <option value="$PROJECT_DIR$/lib/db/TablesColumnFile.dart" />
+        <option value="$PROJECT_DIR$/lib/db/TablesList.dart" />
+        <option value="$PROJECT_DIR$/lib/db/AppDatabase.dart" />
+        <option value="$PROJECT_DIR$/lib/db/AppdatabaseV2.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/Guarantor/GuarantorDetailsBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/collateral/bean/CollateralBasicSelectionBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/collateral/AddCollaterals.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/collateral/AddExistingCollateralsAgain.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/collateral/CollateralList.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/collateral/ExistingCollateralList.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/collateral/collateralREM/CollateralsREMMaster.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/collateral/collateralREM/bean/CollateralREMlandandhouseBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/collateral/collateralT24/bean/CollateralT24Bean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/collateral/collateralT24/collateralT24Screens/CollateralT24Master.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/collateral/collateralsGold/CollateralsGoldMaster.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/collateral/collateralsGold/bean/CollateralsGoldMasterBean.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/collateral/collatralVehicle/CollateralVehicleMaster.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/collateral/collatralVehicle/bean/CollateralVehicleBean.dart" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="23" />
+    <option name="width" value="1366" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eco_los" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eco_los" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eco_los" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eco_los" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eco_los" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eco_los" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-excluded-files" value="false" />
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\_______FINAL___TINDERCLONE_NEWS\tinder-react-native-master\tinder-react-native-master\eco_los" />
+      <recent name="D:\_______FINAL___TINDERCLONE_NEWS\tinder-react-native-master\tinder-react-native-master\eco_los\lib\widgets" />
+      <recent name="D:\_______FINAL___TINDERCLONE_NEWS\tinder-react-native-master\tinder-react-native-master\eco_los\assets" />
+      <recent name="D:\_______FINAL___TINDERCLONE_NEWS\tinder-react-native-master\tinder-react-native-master\eco_los\android\app\src\main\res\drawable" />
+      <recent name="D:\_______FINAL___TINDERCLONE_NEWS\tinder-react-native-master\tinder-react-native-master\eco_los\android\app\src\main\res\mipmap-xxxhdpi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\_______FINAL___TINDERCLONE_NEWS\tinder-react-native-master\tinder-react-native-master\eco_los\lib\syncing" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f594c6a0-9980-4a65-a161-2da34a0730ed" name="Default Changelist" comment="" />
+      <created>1615820384089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615820384089</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17397882" />
+      <window_info id="Captures" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Build Variants" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Dart Analysis" order="0" visible="true" weight="0.47540984" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.33934426" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295082" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.33055976" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" />
+      <window_info anchor="right" id="Flutter Outline" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17397882" />
+      <window_info id="Captures" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Build Variants" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Dart Analysis" order="0" visible="true" weight="0.47540984" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.33934426" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295082" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.33055976" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" />
+      <window_info anchor="right" id="Flutter Outline" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/screens/Guarantor/GuarantorDetailsBean.dart</url>
+          <line>176</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/db/AppdatabaseV2.dart</url>
+          <line>289</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/screens/collateral/bean/CollateralBasicSelectionBean.dart</url>
+          <line>124</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/AddressDetailsBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="196" column="30" selection-start-line="196" selection-start-column="30" selection-end-line="196" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/ImageBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/CustomerFormationBusinessDetails.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="3452" column="4" selection-start-line="3452" selection-start-column="4" selection-end-line="3452" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/BusinessExpenditureDetailsBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/HouseholdExpenditureDetailsBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/AssetDetailsBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/FixedAssetsBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/CurrentAssetsBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/LongTermLiabilitiesBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/ShortTermLiabilitiesBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/EquityBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/CustomerFormationBusinessCashFlow3.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="6494" selection-start-line="6494" selection-end-line="6494" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/IncomeStatementBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/FinancialStmntBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/TotalExpenditureDetailsBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/RiskRatingsBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/ESMSBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="211" selection-start-line="211" selection-end-line="211" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/CustomerFormationCenterAndGroupDetails.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="171" selection-start-line="171" selection-end-line="171" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/List/CustomerList.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="726" selection-start-line="726" selection-end-line="726" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/FamilyDetailsBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/CustomerBusinessDetailsBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/CustomerFormationMasterTabs.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="1128" column="75" selection-start-line="1128" selection-start-column="75" selection-end-line="1128" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/helpers/app_constant.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="1814" column="3" lean-forward="true" selection-start-line="1814" selection-start-column="3" selection-end-line="1814" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#77740#77831#0" />
+            <element signature="e#77880#78005#0" />
+            <element signature="e#78047#78154#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/LoanApplication/bean/CustomerLoanDetailsBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="339" lean-forward="true" selection-start-line="339" selection-end-line="339" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#14641#106276#0" />
+            <element signature="e#106369#120125#0" />
+            <element signature="e#14640#15755#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/Guarantor/AddGuarantor.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/Guarantor/GuarantorDetails.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/documentCollector/DocumentCollectorBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="126" column="53" lean-forward="true" selection-start-line="126" selection-start-column="53" selection-end-line="126" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/Guarantor/GuarantorDetailsForSelection.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/documentCollector/DocumetCollector.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/LoanApplication/List/CustomerLoanDetailsList.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="836" column="30" selection-start-line="836" selection-start-column="30" selection-end-line="836" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/LoanApplication/List/AccuntListForLoan.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/LoanApplication/LoanLimitDetails.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="1971" column="102" selection-start-line="1971" selection-start-column="102" selection-end-line="1971" selection-end-column="102" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/db/TablesColumnFile.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="2170" column="15" lean-forward="true" selection-start-line="2170" selection-start-column="15" selection-end-line="2170" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/db/AppDatabase.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="203" column="52" selection-start-line="203" selection-start-column="52" selection-end-line="203" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/db/TablesList.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/db/AppdatabaseV2.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#1545#3016#0" />
+            <element signature="e#3097#3980#0" />
+            <element signature="e#4084#4136#0" />
+            <element signature="e#4198#4754#0" />
+            <element signature="e#4853#6671#0" />
+            <element signature="e#6755#7504#0" />
+            <element signature="e#7607#7666#0" />
+            <element signature="e#7787#9258#0" />
+            <element signature="e#9541#10289#0" />
+            <element signature="e#10326#10378#0" />
+            <element signature="e#10581#12177#0" />
+            <element signature="e#12264#13012#0" />
+            <element signature="e#13123#13179#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/customerFormation/bean/CustomerListBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="491" column="62" selection-start-line="491" selection-start-column="42" selection-end-line="491" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#102044#115800#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/Guarantor/GuarantorDetailsBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="250" column="3" lean-forward="true" selection-start-line="176" selection-start-column="2" selection-end-line="250" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#4023#4044#0" />
+            <element signature="e#14401#19454#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/collateral/bean/CollateralBasicSelectionBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="133" column="75" lean-forward="true" selection-start-line="133" selection-start-column="75" selection-end-line="133" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/collateral/AddCollaterals.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="1610" column="8" selection-start-line="1610" selection-start-column="8" selection-end-line="1610" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/collateral/AddExistingCollateralsAgain.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="383" column="11" selection-start-line="383" selection-start-column="11" selection-end-line="383" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/collateral/CollateralList.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="895" column="62" lean-forward="true" selection-start-line="895" selection-start-column="62" selection-end-line="895" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/collateral/ExistingCollateralList.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="1065" column="62" lean-forward="true" selection-start-line="1059" selection-start-column="6" selection-end-line="1065" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/collateral/collateralREM/CollateralsREMMaster.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="405" selection-start-line="405" selection-end-line="405" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/collateral/collateralREM/bean/CollateralREMlandandhouseBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="260" selection-start-line="260" selection-end-line="260" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/collateral/collateralT24/bean/CollateralT24Bean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="257" selection-start-line="257" selection-end-line="257" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/collateral/collateralT24/collateralT24Screens/CollateralT24Master.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="462" selection-start-line="462" selection-end-line="462" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/collateral/collateralsGold/CollateralsGoldMaster.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="646" selection-start-line="646" selection-end-line="646" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/collateral/collateralsGold/bean/CollateralsGoldMasterBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/collateral/collatralVehicle/CollateralVehicleMaster.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="415" selection-start-line="415" selection-end-line="415" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/collateral/collatralVehicle/bean/CollateralVehicleBean.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="363" column="60" lean-forward="true" selection-start-line="363" selection-start-column="60" selection-end-line="363" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,4 @@
+sdk.dir=/home/ifnra/Android/Sdk
+flutter.sdk=/home/ifnra/snap/flutter/common/flutter
+flutter.buildMode=debug
+flutter.versionName=0.0.110
